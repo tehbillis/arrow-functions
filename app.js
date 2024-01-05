@@ -144,8 +144,15 @@ let sumAndProduct = function(a, b) {
   return [sum, product];
 };
 
+const newSumAndProduct = (a, b) => {
+  let sum = a + b;
+  let product = a * b;
+  return [sum, product];
+}
+console.log(newSumAndProduct(3, 9));
+
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+console.log(sumAndProduct(3, 9));
 
 
 let message = function(name) {
