@@ -174,9 +174,18 @@ let Student = function(name, age, hometown) {
 
 let joe = new Student('Joe Schmoe', 100, 'Anytown, USA');
 
+// const newStudent = (name, age, hometown) => {
+//   this.name = name;
+//   this.age = age;
+//   this.hometown = hometown;
+// }
+
+// let newJoe = new newStudent('New Joe Schmoe', 200, 'The Town, USA');
+
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this code to break!
-// console.log(joe);
+// console.log(newJoe);
+console.log(joe);
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
